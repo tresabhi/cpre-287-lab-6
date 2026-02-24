@@ -1,0 +1,9 @@
+/.fseventsd
+/lib
+/sd
+/System Volume Information
+
+.metadata_never_index
+.Trash-1000
+.Trashes
+boot_out.txt
