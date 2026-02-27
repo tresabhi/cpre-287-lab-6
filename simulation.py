@@ -15,7 +15,7 @@ TEMP_AVG = 5
 # so we need to divide it by some constant to get a reasonable coefficient
 # for the derivative of the temperatures respect to time
 TARGET_TEMP = 25
-START_TEMP = TARGET_TEMP
+START_TEMP = TARGET_TEMP - 10
 
 # The Simulation(R)
 _sim = None
