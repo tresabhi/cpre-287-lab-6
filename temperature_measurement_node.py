@@ -15,7 +15,7 @@ prev_temps = [None] * num_zones
 LOOP_INTERVAL_NS = 1000000000
 _prev_time = time.monotonic_ns()
 
-TEMPERATURE_LOG_THRESHOLD = 1
+TEMPERATURE_LOG_THRESHOLD = 0
 last_temps = {}
 
 
