@@ -6,7 +6,7 @@ from math import sin, pi
 
 # define some values?
 
-SIM_SPEED = 50
+SIM_SPEED = 1
 
 TEMP_RANGE = 10
 TEMP_AVG = 5
@@ -15,7 +15,7 @@ TEMP_AVG = 5
 # so we need to divide it by some constant to get a reasonable coefficient
 # for the derivative of the temperatures respect to time
 TARGET_TEMP = 25
-START_TEMP = TARGET_TEMP - 10
+START_TEMP = TARGET_TEMP - 20
 
 # The Simulation(R)
 _sim = None
